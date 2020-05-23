@@ -8,7 +8,7 @@ Software of this project has been developed by following the software engineerin
 - [x] Analysis
 - [x] System Design
 - [x] Object Design
-- [x) Implementation
+- [x] Implementation
 - [x] Testing
 
-I worked with a team of 6 and participated in all of these activities. In this repository, I present my own contribution for the implementation and testing of the software.
+*I worked with a team of 6 and participated in all of these activities. In this repository, I present my own contribution for the implementation and testing of the software.*
