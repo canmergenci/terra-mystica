@@ -13,14 +13,14 @@ Software of this project has been developed by following the software engineerin
 
 *I worked with a team of 6 and participated in all of these activities. In this repository, I present my own contribution for the implementation and testing of the software.*
 
-## Delivarables
+## Deliverables
 
-Here is a list of my own contributions to the delivarable work products of this software:
+Here is a list of my own contributions to the deliverable work products of this software:
 
 ### Analysis Report
 
 - Use Case Diagrams & Use Case Descriptions
-- Activity Diagrams and its Highlighted Versions
+- Activity Diagram and its Highlighted Versions
 - Interactive Menu Structure Mock-ups
 
 ### Design Report
@@ -47,6 +47,6 @@ Here is a list of my own contributions to the delivarable work products of this 
 
 - Implementing a GameLogic model and a command-line GameController that lets users play the game from beginning to end. (~900 SLOC)
   Challenging features include:
-  - Connected components graph algorithm to calculate Area Scoring.
+  - Connected components graph algorithm to calculate area scoring.
   - Polymorphic terrain adjacency algorithm for given shipping value.
 - Testing the GameLogic classes with automated JUnit tests with approximately 80% code coverage. (~400 SLOC)
