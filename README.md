@@ -85,19 +85,13 @@ rm src/com/TerraMystica/GameLogic/Test*.java
 javac -d ./build src/com/TerraMystica/GameLogic/*.java
 ```
 
-6. Create MANIFEST.MF file:
-
-```
-cat "Manifest-Version: 1.0\nMain-Class: com.TerraMystica.GameLogic.GameController\n" >MANIFEST.MF
-```
-
-7. Make a .jar file:
+6. Make a .jar file:
 
 ```
 jar cvmf MANIFEST.MF TerraMystica.jar -C ./build /com
 ```
 
-8. Execute .jar file and play the game:
+7. Execute .jar file and play the game:
 
 ```
 java -jar TerraMystica.jar
