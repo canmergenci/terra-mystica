@@ -50,3 +50,55 @@ Here is a list of my own contributions to the deliverable work products of this 
   - Connected components graph algorithm to calculate area scoring.
   - Polymorphic terrain adjacency algorithm for given shipping value.
 - Testing the GameLogic classes with automated JUnit tests with approximately 80% code coverage. (~400 SLOC)
+
+## Build Instructions
+
+### macOS
+
+1. It requires Java JDK 11 and can be installed via brew:
+
+```
+brew install java11
+```
+
+2. Clone the repository:
+
+```
+git clone https://github.com/canmergenci/terra-mystica.git
+```
+
+3. Enter the directory of the repo:
+
+```
+cd terra-mystica
+```
+
+4. Remove the test files:
+
+```
+rm src/com/TerraMystica/GameLogic/Test*.java
+```
+
+5. Compile the source code:
+
+```
+javac -d ./build src/com/TerraMystica/GameLogic/*.java
+```
+
+6. Create MANIFEST.MF file:
+
+```
+cat "Manifest-Version: 1.0\nMain-Class: com.TerraMystica.GameLogic.GameController\n" >MANIFEST.MF
+```
+
+7. Make a .jar file:
+
+```
+jar cvmf MANIFEST.MF TerraMystica.jar -C ./build /com
+```
+
+8. Execute .jar file and play the game:
+
+```
+java -jar TerraMystica.jar
+```
