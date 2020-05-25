@@ -19,8 +19,8 @@ Here is a list of my own contributions to the deliverable work products of this 
 
 ### Analysis Report
 
-- Use Case Diagrams & Use Case Descriptions
-- Activity Diagram and its Highlighted Versions
+- UML Use Case Diagrams & Use Case Descriptions
+- UML Activity Diagram and its Highlighted Versions
 - Interactive Menu Structure Mock-ups
 
 ### Design Report
@@ -38,9 +38,9 @@ Here is a list of my own contributions to the deliverable work products of this 
     - Configuration
     - Start-up & Shut-down
     - Exception Handling
-  - Package Diagram
-  - Deployment Diagram
-  - Component Diagram
+  - UML Package Diagram
+  - UML Deployment Diagram
+  - UML Component Diagram
 - Subsystem Services
 
 ### Implementation
